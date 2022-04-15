@@ -1,0 +1,51 @@
+.Panel {
+    height: 350px;
+    min-width: 250px;
+    max-width: 350px;
+    flex: 1;
+    background-color: #4c9eba;
+    border: 1px solid white;
+    border-radius: 1rem;
+}
+
+.Panel .languageImg {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 2rem;
+}
+
+.langTitle {
+    position: relative;
+    top: 3rem;
+    color: white;
+    margin-bottom: 0;
+}
+.langDesc {
+    position: relative;
+    min-height: 100px;
+    padding: 1rem 1rem 0rem 1rem;
+    top: 1.5rem;
+    color: white;
+}
+
+.langButton {
+    background-color: white;
+	border-radius: 1.5rem;
+	border: 0px;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:17px;
+	padding:8px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #35788f;
+    position: relative;
+    bottom: 1rem;
+}
+
+.langButton :hover {
+    font-size: 24px;
+    background-color: red;
+}

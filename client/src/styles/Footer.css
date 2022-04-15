@@ -1,0 +1,12 @@
+.Footer {
+    background-color: #4c9eba;
+    justify-self: flex-end
+}
+
+.bottomItems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 60px;
+}

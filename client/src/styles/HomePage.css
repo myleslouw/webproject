@@ -1,0 +1,30 @@
+.HomePage {
+    padding: 0rem 3rem 1rem 3rem;
+    background-color: black;
+    flex-grow: 1;
+}
+.ItemContainer  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+}
+h1 {
+    color: white;
+}
+
+h3 {
+    color: #4c9eba;
+    margin: 0;
+    padding: 10px;
+}
+
+.line {
+    background-color: white;
+    width: 50%;
+    height: 5px;
+    border: 0px;
+}
+

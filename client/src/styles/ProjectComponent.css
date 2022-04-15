@@ -1,0 +1,20 @@
+.ProjectPanel {
+    background-color: #4c9eba;
+    width: 42rem;
+    min-height: 8rem;
+    border-radius: 1rem;
+    flex: 1;
+    cursor:pointer;
+    border: 1px white solid;
+}
+
+.ProjectTitle {
+    position: relative;
+    color: white;
+}
+.ProjectDesc {
+    position: relative;
+    padding: 0.5rem;
+    color: white;
+    margin: 0;
+}
